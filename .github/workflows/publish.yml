@@ -18,7 +18,7 @@ jobs:
           with:
             dotnet-version: "9.0"
 
-        - name: Restore and build
+        - name: restore and build
           run: |
             dotnet restore
             dotnet build
